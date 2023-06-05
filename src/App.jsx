@@ -2,10 +2,9 @@ import Calc from "./components/calc";
 
 function App() {
   return (
-    <>
-      <div>Hello, world!</div>
+    <div className="w-full">
       <Calc />
-    </>
+    </div>
   );
 }
 
